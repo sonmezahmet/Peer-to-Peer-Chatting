@@ -1,0 +1,88 @@
+INFO:root:TCP socket has created and connected to the registry server.
+INFO:root:UDP socket has created.
+INFO:root:'10        LOG            sülo 1234' is sent to the registry server.
+INFO:root:'2         LOG_RESP        OK' is received from the registry server.
+INFO:root:Login process is successful.
+INFO:root:'4         PS_PORT        2382' is sent to the registry server.
+INFO:root:'2         PS_PORT_RESP    OK' is received from the registry server.
+INFO:root:Peer server port of this client is 2382.
+INFO:PeerServer::Peer server socket is created.
+INFO:PeerServer::Peer server started.
+INFO:PeerServer::Peer server socket has started to the listening.
+INFO:root:TCP socket has created and connected to the registry server.
+INFO:root:UDP socket has created.
+INFO:root:'10        LOG            fatih 1234' is sent to the registry server.
+INFO:root:'2         LOG_RESP        OK' is received from the registry server.
+INFO:root:Login process is successful.
+INFO:root:'4         PS_PORT        2830' is sent to the registry server.
+INFO:root:'2         PS_PORT_RESP    OK' is received from the registry server.
+INFO:root:Peer server port of this client is 2830.
+INFO:PeerServer::Peer server socket is created.
+INFO:PeerServer::Peer server started.
+INFO:PeerServer::Peer server socket has started to the listening.
+INFO:root:sülo is online.
+INFO:root:Contact address is 127.0.0.1:2382
+INFO:PeerClient::Peer client socket is created
+INFO:PeerClient::Peer client started.
+INFO:PeerClient::'b'10        CHAT_REQ       fatih 2830'' sent to peer server.
+INFO:PeerServer::Peer Server: 127.0.0.1:56435 is connected.
+INFO:PeerServer::'10        CHAT_REQ        fatih 2830' is received.
+INFO:root:'6         CHAT_REQ_RESP  REJECT' is sent to the connected peer
+INFO:PeerClient::Received message: 6         CHAT_REQ_RESP   REJECT
+INFO:root:'0         LOGOUT         ' is sent to the registry server.
+INFO:root:'0         LOGOUT         ' is sent to the registry server.
+INFO:root:TCP socket has created and connected to the registry server.
+INFO:root:UDP socket has created.
+INFO:root:'10        LOG            sülo 1234' is sent to the registry server.
+INFO:root:'2         LOG_RESP        OK' is received from the registry server.
+INFO:root:Login process is successful.
+INFO:root:'4         PS_PORT        7234' is sent to the registry server.
+INFO:root:'2         PS_PORT_RESP    OK' is received from the registry server.
+INFO:root:Peer server port of this client is 7234.
+INFO:PeerServer::Peer server socket is created.
+INFO:PeerServer::Peer server started.
+INFO:PeerServer::Peer server socket has started to the listening.
+INFO:root:TCP socket has created and connected to the registry server.
+INFO:root:UDP socket has created.
+INFO:root:'11        REG            deneme 1234' is sent to the registry server.
+INFO:root:'2         REG_RESP        OK' is received from the registry server.
+INFO:root:Register process is successful.
+INFO:root:'4         PS_PORT        5843' is sent to the registry server.
+INFO:root:'2         PS_PORT_RESP    OK' is received from the registry server.
+INFO:root:Peer server port of this client is 5843.
+INFO:PeerServer::Peer server socket is created.
+INFO:PeerServer::Peer server started.
+INFO:PeerServer::Peer server socket has started to the listening.
+INFO:root:deneme is online.
+INFO:root:Contact address is 127.0.0.1:5843
+INFO:root:deneme is online.
+INFO:root:Contact address is 127.0.0.1:5843
+INFO:PeerClient::Peer client socket is created
+INFO:PeerClient::Peer client started.
+INFO:PeerClient::'b'10        CHAT_REQ       s\xc3\xbclo 7234'' sent to peer server.
+INFO:PeerServer::Peer Server: 127.0.0.1:61285 is connected.
+INFO:PeerServer::'10        CHAT_REQ        sülo 7234' is received.
+INFO:root:'6         CHAT_REQ_RESP  ACCEPT' is sent to the connected peer
+INFO:PeerClient::Received message: 6         CHAT_REQ_RESP   ACCEPT
+INFO:PeerClient::Peer client socket is created
+INFO:PeerClient::Peer client started.
+INFO:PeerServer::Peer Server: 127.0.0.1:61286 is connected.
+INFO:PeerServer::'6         MSG             sadasd' is received.
+INFO:PeerClient::'b'6         MSG            asdasd'' sent to peer server.
+INFO:PeerServer::'6         MSG             asdasd' is received.
+INFO:PeerClient::'b'6         MSG            asdasd'' sent to peer server.
+INFO:root:TCP socket has created and connected to the registry server.
+INFO:root:UDP socket has created.
+INFO:root:'10        LOG            fatih 1234' is sent to the registry server.
+INFO:root:'2         LOG_RESP        OK' is received from the registry server.
+INFO:root:Login process is successful.
+INFO:root:'4         PS_PORT        2382' is sent to the registry server.
+INFO:root:'2         PS_PORT_RESP    OK' is received from the registry server.
+INFO:root:Peer server port of this client is 2382.
+INFO:PeerServer::Peer server socket is created.
+INFO:PeerServer::Peer server started.
+INFO:PeerServer::Peer server socket has started to the listening.
+INFO:root:deneme is online.
+INFO:root:Contact address is 127.0.0.1:5843
+INFO:root:sülo is online.
+INFO:root:Contact address is 127.0.0.1:7234
